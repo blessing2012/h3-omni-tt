@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "base": {
+    "repo_id": "MiniMaxAI/MiniMax-H3",
+    "revision": "42ed227ee7df40d41602854ae760620d6eb651fe",
+    "local_dir": "MiniMax-H3",
+    "partition": "FL2VA",
+    "files": [
+      {
+        "path": "FL2VA/audio_vae/config.json",
+        "size": 1973,
+        "git_blob_sha1": "bc2a8dc3bfe9037e1f0e82e97f309019b6a398e6"
+      },
+      {
+        "path": "FL2VA/audio_vae/config.yaml",
+        "size": 91,
+        "git_blob_sha1": "4ad8704ca5bf410fb2f471978fe9537c98ca4aa0"
+      },
+      {
+        "path": "FL2VA/audio_vae/dac_activations.py",
+        "size": 2189,
+        "git_blob_sha1": "234a4223d1fc7340f0dc450b7c7e286555c5065d"
+      },
+      {
+        "path": "FL2VA/audio_vae/dac_alias_free_act.py",
+        "size": 835,
+        "git_blob_sha1": "d39ca2802eec1bd98e31cb2065c088ac6b57c2b0"
+      },
+      {
+        "path": "FL2VA/audio_vae/dac_alias_free_filter.py",
+        "size": 3300,
+        "git_blob_sha1": "ad025952f5ada1c57be051f8e6dc999267b58d36"
+      },
+      {
+        "path": "FL2VA/audio_vae/dac_alias_free_resample.py",
+        "size": 1740,
+        "git_blob_sha1": "af4b2b44891ac10d5f4a544a73a0d1a5d3342637"
+      },
+      {
+        "path": "FL2VA/audio_vae/dac_attn_proj.py",
+        "size": 3317,
+        "git_blob_sha1": "d3b9b1fcba4e8e2ab4ce323577a1f7321a9f7ab1"
+      },
+      {
+        "path": "FL2VA/audio_vae/dac_audio_vae.py",
+        "size": 7266,
+        "git_blob_sha1": "b8b8c8b3ce0f2144b46663ea560bd1904b654925"
+      },
+      {
+        "path": "FL2VA/audio_vae/dac_bigvgan.py",
+        "size": 7102,
+        "git_blob_sha1": "00d639800dbe91e91f1cef39f2642848622e47ff"
+      },
+      {
+        "path": "FL2VA/audio_vae/dac_utils.py",
+        "size": 362,
+        "git_blob_sha1": "b1d30c34fa506c62c338a9bb7e10816e3bbc32cb"
+      },
+      {
+        "path": "FL2VA/audio_vae/metadata.json",
+        "size": 440,
+        "git_blob_sha1": "db6aa0b9d2022da4b04f1f80fa2a5260231c5c83"
+      },
+      {
+        "path": "FL2VA/audio_vae/minimax_h3_audio_vae.py",
+        "size": 3532,
+        "git_blob_sha1": "b03f1e5027888da226701e20c097053068e3e310"
+      },
+      {
+        "path": "FL2VA/audio_vae/model.safetensors",
+        "size": 605429308,
+        "sha256": "37dddc2f3e6d5d5139d823d5ea283bbf304dadcb885b1ccda818aa13dade5ea2"
+      },
+      {
+        "path": "FL2VA/model_index.json",
+        "size": 719,
+        "git_blob_sha1": "ed4dfb751d8417e5ab8cf58a6915214bda6ba676"
+      },
+      {
+        "path": "FL2VA/processor/chat_template.json",
+        "size": 5499,
+        "git_blob_sha1": "1081bacf1af7c7c6de4a585ce02cd0fd34e382da"
+      },
+      {
+        "path": "FL2VA/processor/merges.txt",
+        "size": 1671839,
+        "git_blob_sha1": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0"
+      },
+      {
+        "path": "FL2VA/processor/preprocessor_config.json",
+        "size": 390,
+        "git_blob_sha1": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+      },
+      {
+        "path": "FL2VA/processor/tokenizer.json",
+        "size": 7032403,
+        "git_blob_sha1": "c6cc1014128b19d1fc46b1d30a23e3b1d35db421"
+      },
+      {
+        "path": "FL2VA/processor/tokenizer_config.json",
+        "size": 11003,
+        "git_blob_sha1": "204d76f78dac6dedc820418c30bf01145de78a21"
+      },
+      {
+        "path": "FL2VA/processor/video_preprocessor_config.json",
+        "size": 385,
+        "git_blob_sha1": "3ba673a5ad7d4d13f54155ecd38b2a94a6dac8fe"
+      },
+      {
+        "path": "FL2VA/processor/vocab.json",
+        "size": 2776833,
+        "git_blob_sha1": "4783fe10ac3adce15ac8f358ef5462739852c569"
+      },
+      {
+        "path": "FL2VA/text_encoder/chat_template.json",
+        "size": 5499,
+        "git_blob_sha1": "1081bacf1af7c7c6de4a585ce02cd0fd34e382da"
+      },
+      {
+        "path": "FL2VA/text_encoder/config.json",
+        "size": 1474,
+        "git_blob_sha1": "29e925092dee9f14278c53e7e7d876cea8a997bc"
+      },
+      {
+        "path": "FL2VA/text_encoder/merges.txt",
+        "size": 1671839,
+        "git_blob_sha1": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00001-of-00014.safetensors",
+        "size": 4932328944,
+        "sha256": "6b9dfbc930e505402ae9d7e5091a9d7d656cda5f34614f01cfe70bfb0cca27cb"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00002-of-00014.safetensors",
+        "size": 4875990528,
+        "sha256": "d8bb44b4ff303fe76fe9e894022fb3dc71b15a2e716592790fe0e3c3e60478fa"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00003-of-00014.safetensors",
+        "size": 4875990552,
+        "sha256": "54f22e8b3168f8dc962fac0d313607ebf52a12b433d4cf3098a0d82d9f042940"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00004-of-00014.safetensors",
+        "size": 4875990584,
+        "sha256": "ad09c74d3c13ee29b5d0d84548fd8a3424a651564eaccd519946c296e59c557f"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00005-of-00014.safetensors",
+        "size": 4875990584,
+        "sha256": "fc993c8a0e2a5b0570f383e1a95dc3a1281d1b224b6f3ee908f4827941e1dfc2"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00006-of-00014.safetensors",
+        "size": 4875990584,
+        "sha256": "82f05620d1f718a90c362b221d6a184ff1a0f53301d706882d3df49695fa1974"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00007-of-00014.safetensors",
+        "size": 4875990584,
+        "sha256": "fb91da8cb01ff4de3eef0eab1c3e769a734b3a1aafc61734068638a0d6c86934"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00008-of-00014.safetensors",
+        "size": 4875990584,
+        "sha256": "431ca56535c8781944ce3801f5eb61c45531e853ecc5846d936ebaf4761b764f"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00009-of-00014.safetensors",
+        "size": 4875990584,
+        "sha256": "3825e3f4302f4d2f7d76aa7430d2ce0864fde6b9e540a5806bf0d8e38e4d9f47"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00010-of-00014.safetensors",
+        "size": 4875990584,
+        "sha256": "aded5a4d1d5e22dbd8b6f79266b6eb88c840411b09527c53917a1419ace22e2f"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00011-of-00014.safetensors",
+        "size": 4875990584,
+        "sha256": "3820ffe8d8d6477f6fe8d614ef3c87abb264ee39accebf43a1507b970d80946f"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00012-of-00014.safetensors",
+        "size": 4875990584,
+        "sha256": "05ad2d08ce71963121c9b03f1d9ec5d7641052f4b23c6c12b80d71065eb8e98e"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00013-of-00014.safetensors",
+        "size": 4875990584,
+        "sha256": "b64f2289871261fdd1abbd3b78bcd66011b341de3dc8eeb2ed1a473ee7c8d95c"
+      },
+      {
+        "path": "FL2VA/text_encoder/model-00014-of-00014.safetensors",
+        "size": 3270697008,
+        "sha256": "e45b6c9998c77ee5a6577f9f47bc76416c1d4d387169e50c4c9d3134ea51b13b"
+      },
+      {
+        "path": "FL2VA/text_encoder/model.safetensors.index.json",
+        "size": 97831,
+        "git_blob_sha1": "b7f68f12031a25c81d72d46a284fe9e1daa448b8"
+      },
+      {
+        "path": "FL2VA/text_encoder/preprocessor_config.json",
+        "size": 390,
+        "git_blob_sha1": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+      },
+      {
+        "path": "FL2VA/text_encoder/tokenizer.json",
+        "size": 7032403,
+        "git_blob_sha1": "c6cc1014128b19d1fc46b1d30a23e3b1d35db421"
+      },
+      {
+        "path": "FL2VA/text_encoder/tokenizer_config.json",
+        "size": 11003,
+        "git_blob_sha1": "204d76f78dac6dedc820418c30bf01145de78a21"
+      },
+      {
+        "path": "FL2VA/text_encoder/video_preprocessor_config.json",
+        "size": 385,
+        "git_blob_sha1": "3ba673a5ad7d4d13f54155ecd38b2a94a6dac8fe"
+      },
+      {
+        "path": "FL2VA/text_encoder/vocab.json",
+        "size": 2776833,
+        "git_blob_sha1": "4783fe10ac3adce15ac8f358ef5462739852c569"
+      },
+      {
+        "path": "FL2VA/tokenizer/merges.txt",
+        "size": 1671839,
+        "git_blob_sha1": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0"
+      },
+      {
+        "path": "FL2VA/tokenizer/tokenizer.json",
+        "size": 7032403,
+        "git_blob_sha1": "c6cc1014128b19d1fc46b1d30a23e3b1d35db421"
+      },
+      {
+        "path": "FL2VA/tokenizer/tokenizer_config.json",
+        "size": 11003,
+        "git_blob_sha1": "204d76f78dac6dedc820418c30bf01145de78a21"
+      },
+      {
+        "path": "FL2VA/tokenizer/vocab.json",
+        "size": 2776833,
+        "git_blob_sha1": "4783fe10ac3adce15ac8f358ef5462739852c569"
+      },
+      {
+        "path": "FL2VA/transformer/config.json",
+        "size": 604,
+        "git_blob_sha1": "94cc6ca1254d9d04b3f7cc06a8c9fc05d0ded065"
+      },
+      {
+        "path": "FL2VA/transformer/model-00001-of-00013.safetensors",
+        "size": 5227812968,
+        "sha256": "0b3386565e476bfdea287e9ea9f269d036e5c649ed14bb9b4afac1dc4661bd2a"
+      },
+      {
+        "path": "FL2VA/transformer/model-00002-of-00013.safetensors",
+        "size": 5164578856,
+        "sha256": "9c98fd4579c9bc96d1b1bbf65c1243f9256df60bccd229570cecc61897773003"
+      },
+      {
+        "path": "FL2VA/transformer/model-00003-of-00013.safetensors",
+        "size": 5164578872,
+        "sha256": "fa484c940d4170199fb69f5016739df2daf6ecd1150631b12a297e06e3964730"
+      },
+      {
+        "path": "FL2VA/transformer/model-00004-of-00013.safetensors",
+        "size": 5164578896,
+        "sha256": "4a851df37cce2d14b39cb58df41def7b591b1f11b8520a32b421a5fa3e997c9f"
+      },
+      {
+        "path": "FL2VA/transformer/model-00005-of-00013.safetensors",
+        "size": 5164578896,
+        "sha256": "3fe6ff94dc9d3107c6776a25277d2b72b5443f88cf0f4ed835fd5b65a94ea5d4"
+      },
+      {
+        "path": "FL2VA/transformer/model-00006-of-00013.safetensors",
+        "size": 5164578896,
+        "sha256": "79b47e1b9ff03a2c6f06dd15a28972acf32c0867172ee34e5aa6e96b99494127"
+      },
+      {
+        "path": "FL2VA/transformer/model-00007-of-00013.safetensors",
+        "size": 5164578896,
+        "sha256": "6ac4d6ce639786b722a8dd99843ed56dcab48a0d174a4b0f9b8cdcbe5160fb0f"
+      },
+      {
+        "path": "FL2VA/transformer/model-00008-of-00013.safetensors",
+        "size": 5164578896,
+        "sha256": "03531812243fb0a333e01efa7e3d39750580bca8cbf2ba0529da419278eab736"
+      },
+      {
+        "path": "FL2VA/transformer/model-00009-of-00013.safetensors",
+        "size": 5164578896,
+        "sha256": "7e82a80b0d0d267026eb841b81523069cc7b956c1ebd8a18c07e462ffb262487"
+      },
+      {
+        "path": "FL2VA/transformer/model-00010-of-00013.safetensors",
+        "size": 5164578896,
+        "sha256": "ef0a1f6b65145232543dd2232d58d91a4d31f44b0da5084acf22cea123255481"
+      },
+      {
+        "path": "FL2VA/transformer/model-00011-of-00013.safetensors",
+        "size": 5164578896,
+        "sha256": "bf885b8f2f078c5499b75fded21094a26bfe0e6e00bee276e499443ecd2f298d"
+      },
+      {
+        "path": "FL2VA/transformer/model-00012-of-00013.safetensors",
+        "size": 5164578896,
+        "sha256": "dc717572d014ebf8527e35af815d10eb2f5a6bc87253b8a7d2f456965192db69"
+      },
+      {
+        "path": "FL2VA/transformer/model-00013-of-00013.safetensors",
+        "size": 4242305176,
+        "sha256": "8bfd852d5817e9836de1d3ec8dbac1c5446b167568b717371f08282b22291aa2"
+      },
+      {
+        "path": "FL2VA/transformer/model.safetensors.index.json",
+        "size": 38323,
+        "git_blob_sha1": "89d6b0862f66080854b239ad7a0b50c31a6de986"
+      },
+      {
+        "path": "FL2VA/video_vae/attention.py",
+        "size": 5785,
+        "git_blob_sha1": "0443bd31cefe7bd5022aa7f36fbc6aced9fdd84f"
+      },
+      {
+        "path": "FL2VA/video_vae/base_module.py",
+        "size": 9520,
+        "git_blob_sha1": "b13137b8d163afea25c235beef1476039d7f6c0e"
+      },
+      {
+        "path": "FL2VA/video_vae/config.json",
+        "size": 1807,
+        "git_blob_sha1": "20f91e40ea9bc24c21a0e757715f93acf49eb841"
+      },
+      {
+        "path": "FL2VA/video_vae/conv.py",
+        "size": 4487,
+        "git_blob_sha1": "f10f5002b13bfa46c8eb9a9b4ba8d88bc891a517"
+      },
+      {
+        "path": "FL2VA/video_vae/flash.py",
+        "size": 5763,
+        "git_blob_sha1": "40b7cac47cabc3755c8c06dc620c689418cb769d"
+      },
+      {
+        "path": "FL2VA/video_vae/func.py",
+        "size": 5840,
+        "git_blob_sha1": "f142c48a932430b67d77164a6bfba3f61102ac3d"
+      },
+      {
+        "path": "FL2VA/video_vae/klvae.py",
+        "size": 48594,
+        "git_blob_sha1": "3e66f174c2c82600b6bc924ede9fb3fb068d1f3e"
+      },
+      {
+        "path": "FL2VA/video_vae/minimax_h3_video_vae.py",
+        "size": 5123,
+        "git_blob_sha1": "231d9c77a7a3dc74de007c29332cfe92e3782f7d"
+      },
+      {
+        "path": "FL2VA/video_vae/norm.py",
+        "size": 10686,
+        "git_blob_sha1": "00a96b83c6ee3f78cf75873e46d96be5d50879a6"
+      },
+      {
+        "path": "FL2VA/video_vae/normalize.py",
+        "size": 1200,
+        "git_blob_sha1": "fd4038037c22d9c7b2e375e455e975ef4c56db7b"
+      },
+      {
+        "path": "FL2VA/video_vae/parallel.py",
+        "size": 12997,
+        "git_blob_sha1": "e63b13c9b20738d4a2835e8fde4504a8145e121f"
+      },
+      {
+        "path": "FL2VA/video_vae/source/config.json",
+        "size": 1164,
+        "git_blob_sha1": "fb5105116e094aface836f5182b126bb4fbdc699"
+      },
+      {
+        "path": "FL2VA/video_vae/source/model.safetensors",
+        "size": 10415548320,
+        "sha256": "5f0c2e161d895a9fee7645ca32d4a7e3a22b90cacfcbeba62ec999cdbbefe0d3"
+      },
+      {
+        "path": "FL2VA/video_vae/utils.py",
+        "size": 764,
+        "git_blob_sha1": "89c13d28758834b1fa8a1cd69018ec00807402f6"
+      },
+      {
+        "path": "FL2VA/video_vae/vae_cnn.py",
+        "size": 8836,
+        "git_blob_sha1": "40a7917a1144162372f53328753f00e2f4c40a20"
+      },
+      {
+        "path": "FL2VA/video_vae/vae_module.py",
+        "size": 1884,
+        "git_blob_sha1": "6f2bf8d091c35eba2c4b6e92ee0038c0bfc9f137"
+      },
+      {
+        "path": "FL2VA/video_vae/vae_processor.py",
+        "size": 8369,
+        "git_blob_sha1": "0f2611987b6b0a0bfde2a3192121eede32dc9d8d"
+      },
+      {
+        "path": "FL2VA/video_vae/vae_vit.py",
+        "size": 13490,
+        "git_blob_sha1": "9021bcdd1dd2120ef5d0f7e0d0521199dbc1d3f9"
+      }
+    ],
+    "license": "MiniMax H3 Community License Agreement"
+  },
+  "lora": {
+    "repo_id": "lightx2v/Minimax-h3-Turbo",
+    "revision": "3ec17a324ced54151364f24f8b5fb6bf7e26414f",
+    "local_dir": "Minimax-h3-Turbo",
+    "filename": "minimax_h3_fl2v_turbo_4step_v1.2_768p_bf16.safetensors",
+    "size": 1383677808,
+    "sha256": "c3d4a2cf618efea71b9e21a4baaa12d412f1eb6c2b6f86efacaf0ebb6814b689",
+    "rank": 128,
+    "alpha": 8,
+    "request_scale": 1.0,
+    "license": "Apache-2.0 (per upstream model card)"
+  },
+  "verification": {
+    "lora_sha256_verified_on_source_host": true,
+    "base_file_names_sizes_and_small_file_git_blobs_match_hub": true,
+    "base_large_weights_rehashed_on_source_host": false
+  }
+}

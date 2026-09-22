@@ -1,0 +1,13 @@
+/weights/
+/outputs/
+/.venv/
+/.env
+/.env.*
+!/.env.example
+**/__pycache__/
+**/.pytest_cache/
+*.pyc
+*.safetensors
+*.ckpt
+*.pem
+.DS_Store

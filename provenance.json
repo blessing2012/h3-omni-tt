@@ -1,0 +1,39 @@
+{
+  "captured_at": "2026-09-22",
+  "upstream_repository": "https://github.com/vllm-project/vllm-omni",
+  "upstream_commit": "039808e0d97d7969a2cb102d074c1e45b8ceef0b",
+  "upstream_archive_sha256": "16c73ed6d9cfa2e192635a32cbda7acad35e1ec5a31fbc9315b85d6dc141f9d2",
+  "source_files_from_leo": {
+    "tests/diffusion/models/minimax_h3/test_minimax_h3_lora.py": "9c72c3848d0c5f35b0b990f81650e019c2eea6043128874dc7bb49d0ae42118b",
+    "vllm_omni/diffusion/models/minimax_h3/lora.py": "3533c4f8e5c513e36c0d2ff11c76cfe29a69c4bfe445faf835c881557fd840b3",
+    "examples/online_serving/text_to_video/benchmark_minimax_h3_fl2va_5s.py": "bd7fae8cd261259764e83081d399c8bac9709c464a3a1a9eb2bd833a05636d92",
+    "examples/online_serving/text_to_video/run_minimax_h3_fl2va.py": "78d0d49e358251b68052c5d0e3629f26e665c5c712c4daa301e4200be94471e6"
+  },
+  "runtime_image": "vllm/vllm-omni:v0.28.0",
+  "runtime_image_digest": "vllm/vllm-omni@sha256:6f8be103eaf0055448cf7578cfd621405fd669079d4361bd58896326b2bf722a",
+  "observed_python": "3.12",
+  "observed_packages": {
+    "vllm": "0.28.0",
+    "vllm-omni": "0.28.0",
+    "torch": "2.13.0+cu130",
+    "diffusers": "0.40.0",
+    "transformers": "5.14.1",
+    "peft": "0.20.0",
+    "safetensors": "0.8.0"
+  },
+  "custom_trained_weights": false,
+  "gpu_generation_retested_for_this_handoff": false,
+  "packaging_sanitization": {
+    "description": "Replaced source-machine absolute model paths with portable /models paths in the two example clients. Inference implementation and tests unchanged.",
+    "files": [
+      "examples/online_serving/text_to_video/benchmark_minimax_h3_fl2va_5s.py",
+      "examples/online_serving/text_to_video/run_minimax_h3_fl2va.py"
+    ]
+  },
+  "delivered_source_files": {
+    "tests/diffusion/models/minimax_h3/test_minimax_h3_lora.py": "9c72c3848d0c5f35b0b990f81650e019c2eea6043128874dc7bb49d0ae42118b",
+    "vllm_omni/diffusion/models/minimax_h3/lora.py": "3533c4f8e5c513e36c0d2ff11c76cfe29a69c4bfe445faf835c881557fd840b3",
+    "examples/online_serving/text_to_video/benchmark_minimax_h3_fl2va_5s.py": "31a280547ed9418faebf5e7d108d7037d1a900fc02e166cf7a1f0c81b765e17a",
+    "examples/online_serving/text_to_video/run_minimax_h3_fl2va.py": "2ba716b6958f185347192a4937361c96c57637be023f7e3d01c3b595fa19184c"
+  }
+}

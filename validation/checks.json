@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-22",
+  "source_integrity": {
+    "unmodified_upstream_files_compared": 3452,
+    "captured_local_files_compared": 4,
+    "passed": true,
+    "example_clients_with_portable_path_only": 2
+  },
+  "runtime_import_and_versions": "passed",
+  "cpu_lora_tests": {
+    "passed": 30,
+    "failed": 0,
+    "cuda_visible_devices": "",
+    "pin_memory_disabled_in_test_process_only": true
+  },
+  "syntax_and_request_dry_run": "passed",
+  "secret_scan": {
+    "tool": "gitleaks",
+    "version": "8.30.1",
+    "unresolved_findings": 0,
+    "reviewed_upstream_false_positives": 8
+  },
+  "lora_content_hash_matches_pinned_public_artifact": true,
+  "base_large_weights_rehashed_on_source_host": false,
+  "gpu_generation_tested": false,
+  "tt_port_tested": false,
+  "production_services_changed": false,
+  "privacy_recheck": {
+    "checked_current_files_and_reachable_history": true,
+    "infrastructure_credentials_found": false,
+    "machine_specific_paths_removed_from_current_tree": true,
+    "history_rewritten": false
+  }
+}

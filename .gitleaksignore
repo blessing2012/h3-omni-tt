@@ -1,0 +1,10 @@
+# Reviewed upstream false positives only; source pinned in provenance.json.
+# These are Python symbols/parameters and prose, not credentials.
+vendor/vllm-omni/docs/contributing/model/adding_tts_model.md:generic-api-key:166
+vendor/vllm-omni/examples/online_serving/text_to_speech/glm_tts/gradio_demo.py:generic-api-key:127
+vendor/vllm-omni/vllm_omni/diffusion/models/flux2_klein/pipeline_flux2_klein.py:generic-api-key:34
+vendor/vllm-omni/vllm_omni/diffusion/models/ming_flash_omni/byte5_encoder.py:generic-api-key:27
+vendor/vllm-omni/vllm_omni/diffusion/models/ltx2/ltx2_components.py:generic-api-key:26
+vendor/vllm-omni/vllm_omni/diffusion/models/minimax_h3/npu/lora.py:generic-api-key:28
+vendor/vllm-omni/vllm_omni/diffusion/sched/__init__.py:generic-api-key:15
+vendor/vllm-omni/vllm_omni/model_executor/models/gepard/configuration_gepard.py:generic-api-key:65
