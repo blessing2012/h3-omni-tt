@@ -45,8 +45,6 @@ GPUs for the supplied serving profile. Reserve at least 200 GB for weights,
 plus space for the container image, caches and outputs.
 
 ```bash
-git clone https://github.com/LinearGameAI/h3-vllm-omni-tt.git
-cd h3-vllm-omni-tt
 
 # CPU tools only; no GPU inference.
 python3 -m venv .venv
